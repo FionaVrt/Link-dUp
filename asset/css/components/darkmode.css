@@ -1,0 +1,14 @@
+    /*thème sombre*/
+    
+    /*fonctionne en fonction de votre thème d'ordi Drak mode=light mode si light mode =Drak mode*/
+    html {
+        --bg :  # fff ;
+        --texte : noir;
+    }
+
+    @media ( prefere-color-scheme : dark) {
+        html {
+            --bg :  # 121212 ;
+            --texte : blanc;
+        }
+    }

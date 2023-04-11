@@ -1,0 +1,51 @@
+@import url('asset/css/style.css');
+
+#block{
+    background-color: var(--bg);
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 2px #fff solid;
+    border-radius: 10%;
+    margin-left: 2%;
+}
+
+.accueil{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.accueil-image img{
+    width: 30px;
+    height: auto;
+}
+
+.messages{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.messages-image img{
+    width: 30px;
+    height: auto;
+}
+
+.profil{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.profil-image img{
+    width: 30px;
+    height: auto;
+}
+
+
+
+
+
+

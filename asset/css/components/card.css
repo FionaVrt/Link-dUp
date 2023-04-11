@@ -1,0 +1,74 @@
+@import url('asset/css/style.css');
+.card {
+    width: 300px;
+    height: 500px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    align-items: center;
+    margin: 0 auto; 
+  }
+
+    .card-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    padding: 10px;
+    background-color: var(--texte);
+  }
+
+    .card-header-image-round {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    overflow: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .card-header-name {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 450px;
+    padding: 10px;
+    background-color: var(--bodycard);
+  }
+
+  .card-body-description {
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .card-body-actions {
+    display: flex;
+    justify-content: center;
+  }
+
+  .card-body-action-like,
+  .card-body-action-reset {
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #ccc;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 0;
+  }
+
+  #p_user{
+    color: #ccc;
+  }
+
+
+  

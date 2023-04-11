@@ -1,0 +1,37 @@
+header img{
+    width: auto;
+    height: 70px;
+    margin: 2%;
+    margin-left: 45%;
+}
+
+#co_1{
+    width: auto;
+    text-align: center;
+}
+
+.mb-3{
+    width: auto;
+    height: 70px;
+    margin: 2%;
+    margin-left: 44%;
+}
+
+.form-control{
+    width: auto;
+    height: 50px;
+    flex-direction: column;  
+}
+
+button{
+    width: auto;
+    margin: 2%;
+    margin-left: 45%;
+}
+
+.img_co{
+   width: 100px;
+   height: 100%;
+   margin-top: -600px;
+}
+
