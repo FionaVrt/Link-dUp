@@ -10,15 +10,19 @@
 	</head>
 	<body>
 		<!-- Barre de recherche -->
-		<nav>
-		<img src="asset/css/img/Logo+Link'dUp2.png" class="logo" />
-		<div class="i_nav">
+		
+		<nav class="i_nav">
+			<div class="haut">
+			<img src="asset/css/img/Logo+Link'dUp2.png" class="logo" />
 			<input type="search" placeholder="Recherche" />
+			</div>
 		<div class="parametre"><a href="parametre.php"><img src="asset/css/img/gear.svg" alt="parametre"></a></div>
 		<button id="log"><a href="login.php">login</a></button>
 		<button id="singn"><a href="Sign up.php">Inscription</a></button>
 		</div>	
 		</nav>
+		
+		
 		<!-- modal pour l'inscription/connexion -->
 		<div class="modal" id="modal">
 			Veuillez vous inscrire ou vous connecter pour continuer.
@@ -49,9 +53,9 @@
 			</div>
 		</div>
 		</section>
-		<!-- pour la liste de tag -->
+		<!-- la liste de tag -->
 		<div id="tag-list">
-			<button class="tag-btn" data-tag="tag1">Tag 1</button>
+			<button class="tag-btn" onclick="color('lifestyle')" data-tag="tag1">Tag 1</button>
 			<button class="tag-btn" data-tag="tag2">Tag 2</button>
 			<button class="tag-btn" data-tag="tag3">Tag 3</button>
 		</div>
